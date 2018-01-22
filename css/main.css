@@ -97,10 +97,14 @@ h3  {
 }
 .img-central  {
     width: 100%;
+    margin: auto;
 }
 .img-footer  {
     display:flex;
     flex-direction: row;
+}
+.titulo-img {
+    text-align: center
 }
 
 
