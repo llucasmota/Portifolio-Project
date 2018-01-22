@@ -106,9 +106,12 @@ h3  {
 .titulo-img {
     text-align: center
 }
-
-
-
+#logo {
+    color: #02b3e4;
+}
+#line-alone {
+    border: 1px solid #B9B0B0;
+}
 @media screen and (min-width: 800px) {
     .grid {
     margin-left: auto;
