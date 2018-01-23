@@ -9,7 +9,7 @@
 }
 header  {
     line-height: 10%;
-    margin-top: 20%
+    padding-top: 60px;
 }
 * {
     border: 1px solid #FF3333 !important;
@@ -84,12 +84,12 @@ header  {
 h1  {
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
-    padding-left: 36%;
+    padding-left: 45%;
 }
 h2  {
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
-    padding-left: 50%;
+    padding-left: 59%;
 }
 h3  {
     font-family: 'Lato', sans-serif;
