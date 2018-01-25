@@ -1,24 +1,17 @@
-
-
-
-.svg-udacity  {
-    width: 7vw;
-    height: 18vh;
-    margin-top: 10%;
-	
-}
-header  {
-    line-height: 10%;
-    padding-top: 60px;
-}
-* {
-    border: 1px solid #FF3333 !important;
-}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+}
+.svg-udacity  {
+    width: 7vw;
+    height: 18vh;
+    margin-top: 10%;
+}
+header  {
+    line-height: 10%;
+    padding-top: 60px;
 }
 
 .grid {
@@ -36,48 +29,36 @@ header  {
 .col-1 {
     width: 8.33%;
 }
-
 .col-2 {
     width: 16.66%;
 }
-
 .col-3 {
     width: 25%;
 }
-
 .col-4 {
     width: 33.33%;
 }
-
 .col-5 {
     width: 41.66%;
 }
-
 .col-6 {
-    width: 50%; 
-    
+    width: 50%;   
 }
-
 .col-7 {
     width: 58.33%;
 }
-
 .col-8 {
     width: 66.66%;
 }
-
 .col-9 {
     width: 75%;
 }
-
 .col-10 {
     width: 83.33%;
 }
-
 .col-11 {
     width: 91.66%;
 }
-
 .col-12 {
     width: 100%;
 }
@@ -122,26 +103,48 @@ p  {
 #line-alone {
     border: 2px solid #7d97ad;
 }
+@media screen and (min-width: 400px) and (max-width: 500px)  {
+    .grid {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        .row {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;  
+        }
+        h1 {
+            width: 56vw;
+        }
+}
+
 @media screen and (min-width: 800px) {
     .grid {
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
     }
     .row {
         width: 100%;
-        
         display: flex;
         flex-wrap: wrap;
     }
 }
 
 
-/*@media only screen and (max-width: 500px)  {
-    p  {
-        display: none;  
-    }
-}*/
+/* @media  screen and (min-width: 400px) and (max-width:500px)  {
+    .grid {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        }
+        .row {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+} */
 
 /*@media only screen and (max-width: 500px) and (orientation: landscape)  {
        p  {
