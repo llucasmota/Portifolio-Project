@@ -96,6 +96,11 @@ h2  {
 h3  {
     font-family: 'Lato', sans-serif;
     color: #2d3c49;
+    font-size: 1rem;
+}
+p  {
+    font-family: 'Lato', sans-serif;
+    color: #7d97ad;
 }
 .figure-logo {
     margin-left:3px;
@@ -125,7 +130,7 @@ h3  {
     }
     .row {
         width: 100%;
-        margin-bottom: 20px;
+        
         display: flex;
         flex-wrap: wrap;
     }
