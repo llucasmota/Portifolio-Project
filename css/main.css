@@ -4,17 +4,18 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-.svg-udacity  {
+
+.svg-udacity {
     width: 7vw;
     height: 18vh;
     margin-top: 10%;
 }
 
 
-.grid {
+/* .grid {
     margin: auto;
     width: 100%;
-}
+} */
 
 .row {
     width: 100%;
@@ -26,137 +27,168 @@
 .col-1 {
     width: 8.33%;
 }
+
 .col-2 {
     width: 16.66%;
 }
+
 .col-3 {
     width: 25%;
 }
+
 .col-4 {
     width: 33.33%;
 }
+
 .col-5 {
     width: 41.66%;
 }
+
 .col-6 {
-    width: 50%;   
+    width: 50%;
 }
+
 .col-7 {
     width: 58.33%;
 }
+
 .col-8 {
     width: 66.66%;
 }
+
 .col-9 {
     width: 75%;
 }
+
 .col-10 {
     width: 83.33%;
 }
+
 .col-11 {
     width: 91.66%;
 }
+
 .col-12 {
     width: 100%;
 }
-h1  {
+
+.flex-class {
+    width: 33.33%;
+}
+
+h1 {
     font-family: 'Lato', sans-serif;
-    
     font-weight: 200;
     color: #2d3c49;
 }
-h2  {
+
+h2 {
     font-family: 'Lato', sans-serif;
-    
     font-weight: 200;
     /* padding-left: 59%; */
     color: #2d3c49;
 }
-h3  {
+
+h3 {
     font-family: 'Lato', sans-serif;
     color: #7d97ad;
     font-size: 1.2rem;
     letter-spacing: 1px;
     font-weight: 100;
 }
-p  {
+
+p {
     font-family: 'Lato', sans-serif;
     color: #7d97ad;
 }
+
 .figure-logo {
-    margin-left:3px;
+    margin-left: 3px;
 }
-.img-central  {
+
+.img-central {
     width: 100%;
     margin: auto;
 }
-.img-footer  {
-    display:flex;
-    flex-direction: row;
-}
+
 .titulo-img {
     text-align: center
 }
+
 #logo {
     color: #02b3e4;
 }
+
 #line-alone {
     border: 2px solid #7d97ad;
 }
-@media screen and (min-width: 400px) and (max-width: 500px)  {
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
     .grid {
-        width: 400px;
+        max-width: 400px;
         margin-left: auto;
         margin-right: auto;
-        }
-        .row {
-        
-            display: flex;
-            flex-wrap: wrap;  
-        }
-        h1 {
-            font-size: 2rem;
-            font-weight: 200;
-            
-            letter-spacing: 5px;
-            }
-            h2 {
-            font-size: 1.3rem;
-            font-weight: 200;
-           
-            letter-spacing: 2px;
-            }
-        #img-central {
-            max-width: 100%;
-        }
-}
-
-@media screen and (min-width: 800px) {
-    .grid {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     }
     .row {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
     }
     h1 {
-    font-size: 2.2rem;
-    font-weight: 200;
-    padding-left: 20%;
-    letter-spacing: 5px;
+        font-size: 2rem;
+        font-weight: 200;
+        letter-spacing: 5px;
     }
     h2 {
-    font-size: 1.3rem;
-    font-weight: 200;
-    padding-left: 20%;
-    letter-spacing: 2px;
+        font-size: 1.3rem;
+        font-weight: 200;
+        letter-spacing: 2px;
     }
-    header  {
-        /* line-height: 10%;
-        padding-top: 60px; */
+    #img-central {
+        max-width: 100%;
+    }
+    .row-footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .titulo-img {
+        text-align: left;
+    }
+    .svg-udacity {
+        width: 13vw;
+        height: 22vh;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .grid {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1 {
+        font-size: 2.2rem;
+        font-weight: 200;
+        padding-left: 20%;
+        letter-spacing: 5px;
+    }
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 200;
+        padding-left: 20%;
+        letter-spacing: 2px;
+    }
+    header {
+        line-height: 10%;
+        padding-top: 60px;
     }
 }
 
@@ -174,17 +206,21 @@ p  {
         }
 } */
 
+
 /*@media only screen and (max-width: 500px) and (orientation: landscape)  {
        p  {
            display: none;  
     }
 }*/
 
+
 /*@media only screen and (min-width: 500px)  {
     p  {
         display: none;  
     }
 }*/
+
+
 /*
 @media only print and (max-width: 500px)  {
     p  {
