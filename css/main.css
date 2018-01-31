@@ -11,11 +11,10 @@
     margin-top: 10%;
 }
 
-
-/* .grid {
+.grid {
     margin: auto;
     width: 100%;
-} */
+}
 
 .row {
     width: 100%;
@@ -100,6 +99,7 @@ h3 {
 p {
     font-family: 'Lato', sans-serif;
     color: #7d97ad;
+    font-size: 1rem;
 }
 
 .figure-logo {
@@ -123,7 +123,46 @@ p {
     border: 2px solid #7d97ad;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 500px) {
+.row-footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 591px) and (max-width: 799px) {
+    .grid {
+        max-width: 590px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img-footer {
+        width: 90%;
+    }
+    p {
+        font-family: 'Lato', sans-serif;
+        color: #7d97ad;
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 2.2rem;
+        font-weight: 200;
+        padding-left: 20%;
+        letter-spacing: 5px;
+    }
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 200;
+        padding-left: 20%;
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 589px) {
     .grid {
         max-width: 400px;
         margin-left: auto;
@@ -190,40 +229,9 @@ p {
         line-height: 10%;
         padding-top: 60px;
     }
+    .row-footer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
-
-
-/* @media  screen and (min-width: 400px) and (max-width:500px)  {
-    .grid {
-        margin-left: auto;
-        margin-right: auto;
-        width: 400px;
-        }
-        .row {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-        }
-} */
-
-
-/*@media only screen and (max-width: 500px) and (orientation: landscape)  {
-       p  {
-           display: none;  
-    }
-}*/
-
-
-/*@media only screen and (min-width: 500px)  {
-    p  {
-        display: none;  
-    }
-}*/
-
-
-/*
-@media only print and (max-width: 500px)  {
-    p  {
-        display: none;  
-    }
-}*/
