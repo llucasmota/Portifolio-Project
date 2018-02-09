@@ -141,7 +141,7 @@ p {
         flex-wrap: wrap;
     }
     .img-footer {
-        width: 90%;
+        width: 100%;
     }
     p {
         font-family: 'Lato', sans-serif;
@@ -190,15 +190,29 @@ p {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
     }
     .titulo-img {
-        text-align: left;
+        text-align: center;
     }
     .svg-udacity {
         width: 13vw;
         height: 22vh;
         margin-top: 10%;
+    }
+    .img-footer  {
+        width: 70%;
+    }
+    .flex-class {
+        width: 50%;
+    }
+    h3 {
+        font-family: 'Lato', sans-serif;
+        color: #7d97ad;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        font-weight: 100;
+        margin-right: 30px;
     }
 }
 
@@ -225,7 +239,7 @@ p {
         padding-left: 20%;
         letter-spacing: 2px;
     }
-    header {
+    #header-section {
         line-height: 10%;
         padding-top: 60px;
     }
@@ -233,5 +247,8 @@ p {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+    }
+    .img-footer  {
+        width: 100%;
     }
 }
